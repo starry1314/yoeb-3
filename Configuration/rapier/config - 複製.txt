@@ -1,0 +1,258 @@
+;機器人主配置文件
+[client]
+
+;機器人將在登錄屏幕中暫停，以獲得這些數字之間的隨機值（這是最小值）/注意：在未暫停的機器人將立即啟動/
+idle_time_min=0
+
+;機器人將在登錄屏幕中暫停，以獲取這些數字之間的隨機值（這是最大值）/注意：在未暫停的機器人將立即啟動/
+idle_time_max=0
+
+;在這些數字之間的隨機運行時間後，機器人將在登錄屏幕中暫停（這是最小值）/注意：機器人暫停時倒計時暫停/
+run_time_min=0
+
+;在這些數字之間的隨機運行時間後，機器人將在登錄屏幕中暫停（這是最大值）/注意：當機器人暫停時，倒計時暫停/
+run_time_max=0
+
+; 0-> 機器人將等到角色在城裡，然後退出。 1-> Bot 將立即註銷。 2-> Bot 將等到進入城鎮/藏身之處，然後在不註銷的情況下閒置。
+idle_type=0
+
+;在重新啟動客戶端之前等待這段時間。
+client_restart_delay=30
+
+; PoE 可執行文件的路徑 (PathOfExile.exe)
+client_path=C:\Program Files (x86)\Garena\Garena\poereboot.exe
+
+[一般的]
+
+;如果您希望機器人自動寫入帳戶和密碼憑據，請在此處定義（在配置文件更改時更改帳戶很有用）
+enable_account_credentials=false
+
+;在此處定義要在字符選擇屏幕中使用的字符（默認值：1，頂部字符）。
+character_to_use=1
+
+;在這裡寫下您希望機器人清理的區域的名稱。你必須寫它/！他同樣的方式/！因為它寫在coordinates.ini 文件中（沒有_x 或_y ofc）。目前，機器人每次運行只能清理一個區域。
+zone_to_clean=The Blood Aqueduct
+
+;重要的！！你必須給出該區域所屬的行為。
+zone_to_clean_act=9
+
+;如果您希望機器人每次在機器人之前輸入 /dnd "message"，請將其設置為 true。
+dnd_mode=false
+
+;開胸？
+open_chest=false
+
+;打開保險箱？
+open_strongbox=false
+
+;此範圍下開寶箱（之前清怪）（0：無限）。
+chest_range=30
+
+;攻擊比這個範圍更近的易碎箱子
+breakable_attack_range=0
+
+;用於攻擊易碎寶箱的技能
+breakable_attack_key=mouse_right
+
+;激活神社
+activate_shrines=false
+
+;激活此範圍內的神社
+shrines_range=100
+
+;激活單體？
+activate_monoliths=false
+
+;在這個範圍內激活單體
+monoliths_range=100
+
+;發動入侵
+activate_incursions=false
+alva_range=100
+
+;激活漏洞
+activate_breakes=false
+
+;激活此範圍內的突破
+違約範圍=100
+
+;乾淨的深淵
+clean_abyssal_depths=false
+
+;激活軍團巨石
+activate_legion_monolith=false
+
+;等級寶石？
+level_gems=true
+
+;如果您想使用 Alt 來拾取物品，將此選項設置為 true 可能會減少垃圾拾取的數量，要使用此參數，您需要在 UI 選項中啟用選項 Key Pickup 並確保將高亮鍵設置為alt（默認值：true）
+use_alt_to_loot=false
+
+;移動時按shift
+shift_when_moving=false
+
+;在不死怪物之前殺死飼養不死怪物
+kill_raise_undead_first=true
+
+;如果耕種區域，總是重置實例。
+always_reset_instance=false
+
+;啟用地圖農業？
+enable_map_farming=false
+
+;要在地圖中激活的主索引
+map_device_master_selection=-1
+
+;讓機器人在最高和最低地圖層之間交替以提高地圖池的可持續性
+enable_lowest_highest_tier_map_alternance=false
+
+;不再有地圖可耕種時停止機器人
+stop_bot_when_no_more_maps=false
+
+;機器人認為地圖的百分比被清除，當值達到時，機器人將重新啟動實例。
+area_clean_percent=0.900000
+
+;和以前一樣，但只在耕地圖時使用（這個值只用於地圖耕作）。
+map_clean_percent=1.000000
+
+;在所有地圖上跳過 Boss 競技場
+skip_boss_arenas=false
+
+;如果在過去 60 秒內（默認）角色周圍的死亡怪物數量沒有變化，則下一個實例！ （設置為 0 以禁用此功能）。
+Monster_no_kill_timeout=20
+
+;每次運行允許的最長時間（以秒為單位）。當計時器到達時，退出登錄並重新開始。
+run_max_time=130
+
+;使用 TP Scrolls 而不是退出登錄。
+enable_tp_to_town=true
+
+;去藏身處而不是城鎮
+enable_hideout=false
+
+;機器人將向該 NPC 出售物品
+hideout_npc_name=anyone
+
+;選擇如何傳送到藏身處。 （0：兩者（隨機），1：聊天命令，2：航點選擇）
+hideout_access_method=1
+
+;你的流放之路版本，0->普通； 1->蒸汽； 2-> 加雷納； 3->Garena TW; 4->加雷納獨聯體； 5->Garena TH; 6->中國
+poe_version=2
+
+;如果有任何指定的怪物在範圍內，則為雞？
+enable_sight_chicken=false
+
+;檢測雞的怪物的範圍
+sight_chicken_range=100
+
+;啟用自動配置文件更改器？ （在註銷或進入城鎮之前，個人資料不會更改。）
+enable_auto_profile_changer=false
+
+;配置文件將在此時間後以分鐘為單位更改（開始按鈕後開始計數）
+auto_profile_switch_time=120
+
+;按此百分比隨機化時間（例如：如果您將時間設置為 100 並且隨機設置為 10 配置文件可以從 90 到 110 分鐘的任何時間切換）
+auto_profile_switch_random=0.100000
+
+;如果啟用，當配置文件更改時，機器人將完全重新登錄（適合字符更改）
+auto_profile_changer_relog=false
+
+;將切換到此配置文件（注意：如果您想循環回此配置文件，請不要忘記設置其他配置文件
+;將以“custom_npc_name”設置的名稱而不是默認名稱向NPC出售物品
+enable_specific_npc=false
+
+;如果啟用，將向該 NPC 出售物品
+;如果啟用，將使用自定義坐標（在“菜單”部分下的“coordinates.ini”中找到，鍵名為“npc_sell_button_y_custom”）
+use_custom_coord=false
+
+;如果角色被卡住，將按下此按鈕。使用移動技能來解開它。
+;啟用導航網格尋路系統，計算速度比舊系統快得多。然而，這仍然是竊聽器和正在測試 atm。
+use_recast_pathfinding=false
+
+;如果剩餘怪物值小於以下值，機器人將認為地圖已清除。此值僅適用於地圖種植。請注意，如果值 > 50，則值始終為 51，因此切勿放置任何大於 50 的值。
+Monsters_remaining_threshold=0
+
+;如果角色進入主人的區域，則重置當前地圖。
+reset_map_on_master_area=true
+
+;當“沒有怪物被殺死”超時發生時，將清除地圖（並返回城鎮/雞）。
+set_cleared_on_timeout=false
+
+;啟用自動進程，僅適用於測試 atm 的開發人員，請勿啟用此功能:)
+auto_progression=false
+
+; Bot 每次在同一區域進行傳送時都會創建一個 tp。
+create_tp_in_multilevel_areas=true
+
+;嘗試檢測並殺死凍結的 PoE 窗口（如果在“客戶端”選項卡中指定了 exe 的路徑，則機器人將重新啟動）。
+kill_frozen_poe_window=true
+
+;一般添加城鎮管理延遲 - 每個任務將為其功能添加總延遲量，值超過 500 表示使用舊系統/以毫秒/
+custom_ added_town_management_delay=0
+
+;機器人嘗試攻擊怪物的時間，如果超時，怪物將被跳過（不會發生雞）/秒/
+max_monster_timeout=25
+
+; Bot 將始終單擊“復活”按鈕。
+always_resurrect_in_town=true
+
+;設置在普通難度下幫助哪個強盜。
+bandit_normal=0
+
+;設置在殘酷難度下幫助哪個強盜。
+bandit_cruel=0
+
+;設置在無情難度下幫助哪個強盜。
+bandit_merciless=0
+
+;機器人將根據設置使用聯賽寶石。 (leaguestones.ipd)
+use_league_stones=false
+
+;啟用日誌文件清理
+enable_log_file_cleaning=true
+
+;以分鐘為單位的日誌文件清理間隔
+log_file_cleaning_interval=1
+
+;啟用將刪除的項目保存到 CSV 文件
+enable_item_drop_to_csv_export=false
+
+;如果角色被卡住，將按下此按鈕。使用移動技能來解開它。
+key_on_fail_movement=Q
+
+;打開譫妄鏡子？
+enable_delirium=true
+
+;開始深淵遭遇？
+enable_abyss=false
+
+;您在 exiled-bot.net 上的用戶名
+identifier=yobei228
+
+;啟用精英功能的鍵。
+key=
+
+[stashing]
+
+;要使用哪個存儲選項卡？如果啟用了 multi-stashtab，則使用逗號分隔選項卡。例如：1,5,7
+stash_tab_to_use=1,2,3,4
+
+;哪個選項卡僅用於貨幣？從左到右更高的優先級
+currency_store_stash_tabs=3,4
+
+;用於混沌配方項目的隱藏選項卡
+Chaos_recipe_stash_tabs=2
+
+;用於地圖的隱藏選項卡，機器人將在存儲地圖時優先使用它們
+map_store_stash_tabs=2
+
+;啟用自動地圖升級。需要在地圖 ipd 文件中定義機器人應該升級的地圖（即 [Type] == "Dungeon Map" && [Rarity] != "Unique" # [UpgradeMapTier] == "true" 升級地牢地圖） .
+enable_map_tier_upgrading=false
+
+;在機器人開始升級它們之前，玩家需要至少擁有以下數量的地圖。
+minimum_map_number_to_upgrade_tier=3
+
+[profile]
+
+;設置應該使用哪個地圖配置文件
+map_profile=defaultÁÖ¹Ï®M¥ÎÀÉ
