@@ -743,8 +743,12 @@
 //	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 普通	不撿不存倉																						
 				//																								
 	//// 15F 輿圖			//																								
-	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	撿取所有地圖																						
-	// Sacrifice Set			//																								
+//	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	撿取所有地圖																						
+[Category] == "Map" && [Type]=="Arcade Map" #
+[Category] == "Map" && [Type]=="Cemetery Map" #
+[Category] == "Map" && [Type]=="Coves Map" #
+[Category] == "Map" && [Type]=="Defiled Cathedral Map" #	
+// Sacrifice Set			//																								
 	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉																						
 	[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	拾取且存倉																						
 	[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//	//黃昏的奉獻	拾取且存倉																						
@@ -908,13 +912,7 @@
 	[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"			//		拾取且存倉																						
 	[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"			//		拾取且存倉																						
 	[Type] == "Winged Blight Scarab"   # [StashItem] == "true"			//		拾取且存倉																						
-[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"
-[Type] == "Polished Expedition Scarab" # [StashItem] == "true"
-[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"
-[Type] == "Winged Expedition Scarab" # [StashItem] == "true"
-	
-	
-	
+	[Category] == "Scarab" # [StashItem] == "true"			//	基底是甲蟲	拾取且存倉																						
 	//// 20F 化石			//																								
 	[Type] == "Aberrant Fossil"     # [StashItem] == "true"			//	//特異化石	拾取且存倉																						
 	[Type] == "Aetheric Fossil"     # [StashItem] == "true"			//	//神幻化石	拾取且存倉																						
