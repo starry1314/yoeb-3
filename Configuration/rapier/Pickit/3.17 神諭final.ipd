@@ -908,7 +908,13 @@
 	[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"			//		拾取且存倉																						
 	[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"			//		拾取且存倉																						
 	[Type] == "Winged Blight Scarab"   # [StashItem] == "true"			//		拾取且存倉																						
-	[Category] == "Scarab" # [StashItem] == "true"			//	基底是甲蟲	拾取且存倉																						
+[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"
+[Type] == "Polished Expedition Scarab" # [StashItem] == "true"
+[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"
+[Type] == "Winged Expedition Scarab" # [StashItem] == "true"
+	
+	
+	
 	//// 20F 化石			//																								
 	[Type] == "Aberrant Fossil"     # [StashItem] == "true"			//	//特異化石	拾取且存倉																						
 	[Type] == "Aetheric Fossil"     # [StashItem] == "true"			//	//神幻化石	拾取且存倉																						
