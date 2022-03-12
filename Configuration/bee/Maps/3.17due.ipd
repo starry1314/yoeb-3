@@ -41,8 +41,11 @@
 	[map_players_block_chance_+%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低格檔	避開//降低格檔的圖，用改造或C去骰																				
 	[map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低格檔	避開//降低格檔的圖，用改造或C去骰																				
 //	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//脆弱詛咒	我不怕這個																				
-//	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//脆弱詛咒	我不怕這個																				
+	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//脆弱詛咒	我不怕這個																				
 //	[map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//無法偷取	我不怕這個																				
-//	[map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//無法偷取	我不怕這個																				
+	[map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//無法偷取	我不怕這個																				
 //	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
-//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
+	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare # [RerollMods] == "true" // Of Insulation -- Monsters have +% Chance to Avoid Status Elemental Ailments	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
+[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低最大抗
+[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低最大抗
+
