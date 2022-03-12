@@ -9,7 +9,7 @@
 	[Type]=="Arcade Map" #	[RunMap]	=="true"	//崩壞長廊	打這張圖																				
 	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//晨曦墓地	打這張圖																				
 	[Type]=="Coves Map" #	[RunMap]	=="true"	//疾風峽灣	打這張圖																				
-	[Type]=="Defiled Cathedral Map" #	[RunMap]	=="true"	//不潔教堂	打這張圖																				
+	[Type]=="Grotto Map" #	[RunMap]	=="true"	//不潔教堂	打這張圖																				
 																									
 	//3.17 忽略圖與忽略傳奇圖																								
 																									
