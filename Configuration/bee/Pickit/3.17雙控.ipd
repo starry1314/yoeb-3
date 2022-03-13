@@ -744,10 +744,13 @@
 				//																								
 	//// 15F 輿圖			//																								
 //	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	在地上不撿，放背包就賣掉																						
-	[Category] == "Map" && [Type]=="Arcade Map" #	[StashItem]	 == "true" 	//	//崩壞長廊																							
+	[Category] == "Map" && [Type]=="City Square Map" #	[StashItem]	 == "true" 	//	//崩壞長廊																							
 	[Category] == "Map" && [Type]=="Cemetery Map" #	[StashItem]	 == "true" 		//晨曦墓地																							
 	[Category] == "Map" && [Type]=="Coves Map" #	[StashItem]	 == "true" 		//疾風峽灣																							
-	[Category] == "Map" && [Type]=="Grotto Map" #	[StashItem]	 == "true" 		//不潔教堂																							
+	[Category] == "Map" && [Type]=="Promenade Map" #	[StashItem]	 == "true" 		//月色
+	
+	
+	
 	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉																						
 	[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	拾取且存倉																						
 	[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//	//黃昏的奉獻	拾取且存倉																						
