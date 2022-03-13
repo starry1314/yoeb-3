@@ -6,10 +6,10 @@
 //	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//使用增幅石			//使用增幅	不//使用增幅																				
 	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	//使用點金																				
 	//只打這些圖無限循環//				//中文判斷																				
-	[Type]=="Arcade Map" #	[RunMap]	=="true"	//崩壞長廊	打這張圖																				
+	[Type]=="Promenade Map" #	[RunMap]	=="true"	//月色	打這張圖																				
 	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//晨曦墓地	打這張圖																				
 	[Type]=="Coves Map" #	[RunMap]	=="true"	//疾風峽灣	打這張圖																				
-	[Type]=="Grotto Map" #	[RunMap]	=="true"	//不潔教堂	打這張圖																				
+	[Type]=="City Square Map" #	[RunMap]	=="true"	//危城	打這張圖																				
 																									
 	//3.17 忽略圖與忽略傳奇圖																								
 																									
