@@ -227,6 +227,34 @@
 	[Type] == "Timeless Templar Emblem"         # 	[StashItem]	 == "true"	//	//永恆聖宗徽印	拾取且存倉																						
 	[Type] == "Timeless Vaal Emblem"                 # 	[StashItem]	 == "true"	//	//永恆瓦爾徽印	拾取且存倉																						
 				//																								
+	[Type] == "Abyssal Incubator" #	[ForceSellItem]	 == "true"	//	//深淵的培育器	拾取且售出
+[Type] == "Blighted Incubator" #	[ForceSellItem]	 == "true"	//	//凋落的培育器	拾取且售出
+[Type] == "Cartographer's Incubator" #	[ForceSellItem]	 == "true"	//	//製圖師的培育器	拾取且售出
+[Type] == "Celestial Armoursmith's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．鐵匠的培育器	拾取且售出
+[Type] == "Celestial Blacksmith's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．鑄鐵的培育器	拾取且售出
+[Type] == "Celestial Jeweller's Incubator" #	[ForceSellItem]	 == "true"	//	//眾星．珠寶匠的培育器	拾取且售出
+[Type] == "Diviner's Incubator" #	[ForceSellItem]	 == "true"	//	//聖者的培育器	拾取且售出
+[Type] == "Eldritch Incubator" #	[ForceSellItem]	 == "true"	//	//異界尊師的培育器	拾取且售出
+[Type] == "Enchanted Incubator" #	[ForceSellItem]	 == "true"	//	//附魔的培育器	拾取且售出
+[Type] == "Foreboding Incubator" #	[ForceSellItem]	 == "true"	//	//預示的培育器	拾取且售出
+[Type] == "Fossilised Incubator" #	[ForceSellItem]	 == "true"	//	//化石的培育器	拾取且售出
+[Type] == "Fragmented Incubator" #	[ForceSellItem]	 == "true"	//	//碎片培育器	拾取且售出
+[Type] == "Gemcutter's Incubator" #	[ForceSellItem]	 == "true"	//	//寶石匠的培育器	拾取且售出
+[Type] == "Geomancer's Incubator" #	[ForceSellItem]	 == "true"	//	//占卜師的培育器	拾取且售出
+[Type] == "Infused Incubator" #	[ForceSellItem]	 == "true"	//	//注能的培育器	拾取且售出
+[Type] == "Kalguuran Incubator" #	[ForceSellItem]	 == "true"	//		拾取且售出
+[Type] == "Maddening Incubator" #	[ForceSellItem]	 == "true"	//	//瘋狂的培育器	拾取且售出
+[Type] == "Morphing Incubator" #	[ForceSellItem]	 == "true"	//	//變形的培育器	拾取且售出
+[Type] == "Mysterious Incubator" #	[ForceSellItem]	 == "true"	//	//神祕的培育器	拾取且售出
+[Type] == "Obscured Incubator" #	[ForceSellItem]	 == "true"	//	//朦朧的培育器	拾取且售出
+[Type] == "Ornate Incubator" #	[ForceSellItem]	 == "true"	//	//華麗的孵育器	拾取且售出
+[Type] == "Otherworldly Incubator" #	[ForceSellItem]	 == "true"	//	//超凡的培育器	拾取且售出
+[Type] == "Primal Incubator" #	[ForceSellItem]	 == "true"	//	//先祖培育器	拾取且售出
+[Type] == "Singular Incubator" #	[ForceSellItem]	 == "true"	//	//卓越的培育器	拾取且售出
+[Type] == "Skittering Incubator" #	[ForceSellItem]	 == "true"	//	//飛掠的培育器	拾取且售出
+[Type] == "Thaumaturge's Incubator" #	[ForceSellItem]	 == "true"	//	//幻術師的培育器	拾取且售出
+[Type] == "Time-Lost Incubator" #	[ForceSellItem]	 == "true"	//	//時間遺忘的培育器	拾取且售出
+[Type] =="Divine Vessel" #	[ForceSellItem]	 == "true"	//	//眾神聖器	拾取且售出	
 	//// 11F 精髓			//																								
 	// Tier 1			//																								
 	[Type] == "Whispering Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之低語精髓	拾取且存倉																						
