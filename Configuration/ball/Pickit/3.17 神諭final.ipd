@@ -189,11 +189,11 @@
 	[Type] == "Blueprint: Underbelly" # 	[ForceSellItem]	 == "true"	//	//藍圖：地下道	拾取且售出																						
 	[Type] == "Blueprint: Mansion" # 	[ForceSellItem]	 == "true"	//	//藍圖：官邸	拾取且售出																						
 	//// 7F 鍊魔器官			//																								
-	[Type] == "*Brain" # 	[StashItem]	 == "true"	//		拾取且存倉																						
-	[Type] == "*Eye" # 	[StashItem]	 == "true"	//		拾取且存倉																						
-	[Type] == "*Lung" # 	[StashItem]	 == "true"	//		拾取且存倉																						
-	[Type] == "*Heart" # 	[StashItem]	 == "true"	//		拾取且存倉																						
-	[Type] == "*Liver" # 	[StashItem]	 == "true"	//		拾取且存倉																						
+	[Type] == "Brain" # 	[StashItem]	 == "true"	//		拾取且存倉																						
+	[Type] == "Eye" # 	[StashItem]	 == "true"	//		拾取且存倉																						
+	[Type] == "Lung" # 	[StashItem]	 == "true"	//		拾取且存倉																						
+	[Type] == "Heart" # 	[StashItem]	 == "true"	//		拾取且存倉																						
+	[Type] == "Liver" # 	[StashItem]	 == "true"	//		拾取且存倉																						
 				//																								
 	//// 8F 凋落油瓶			//																								
 	[Type] == "Tainted Oil" # 	[StashItem]	 == "true"	//	污染油瓶	拾取且存倉																						
@@ -777,10 +777,10 @@
 [Category] == "Map" && [Type]=="Coves Map" #
 [Category] == "Map" && [Type]=="Defiled Cathedral Map" #	
 // Sacrifice Set			//																								
-	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉																						
-	[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	拾取且存倉																						
-	[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//	//黃昏的奉獻	拾取且存倉																						
-	[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//	//午夜的奉獻	拾取且存倉																						
+//	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉																						
+//	[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	拾取且存倉																						
+//	[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//	//黃昏的奉獻	拾取且存倉																						
+//	[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//	//午夜的奉獻	拾取且存倉																						
 	// Mortal Set			//	//凡人套組																							
 	[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	拾取且存倉																						
 	[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//	//凡人的憤怒	拾取且存倉																						
@@ -807,7 +807,7 @@
 	[Type] == "Fragment of Emptiness"    # 	[StashItem]	 == "true" 	//	//空虛斷片	拾取且存倉																						
 	[Type] == "Fragment of Terror"       # 	[StashItem]	 == "true" 	//	//恐懼斷片	拾取且存倉																						
 	// Other			//	//其它																							
-	[Type] == "Divine Vessel"            # 	[StashItem]	 == "true" 	//	//眾神聖器	拾取且存倉																						
+//	[Type] == "Divine Vessel"            # 	[StashItem]	 == "true" 	//	//眾神聖器	拾取且存倉																						
 	[Type] =="Incandescent Invitation" #	[StashItem]	 == "true" 	//	火邀請	拾取且存倉																						
 	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	火邀請2	拾取且存倉																						
 	[Type] == "Screaming Invitation" #	[StashItem]	 == "true" 	//	冰邀請	拾取且存倉																						
