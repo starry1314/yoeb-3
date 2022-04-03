@@ -771,7 +771,7 @@
 //	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] <= "2" && 	[StashItem]	 == "true" 	//	2天賦 小型 普通	不撿不存倉																						
 				//																								
 	//// 15F 輿圖			//																								
-	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	撿取所有地圖																						
+//	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	撿取所有地圖																						
 [Category] == "Map" && [Type]=="Arcade Map" #
 [Category] == "Map" && [Type]=="Cemetery Map" #
 [Category] == "Map" && [Type]=="Coves Map" #
