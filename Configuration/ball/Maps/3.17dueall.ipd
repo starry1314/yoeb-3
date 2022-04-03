@@ -2,9 +2,9 @@
 	//3.17 雙控專用輿圖，不會使用者請勿使用。																								
 	[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//使用製圖釘			//使用製圖釘	不//使用製圖釘																				
 //	[MapTier]>= "1" && [MapTier] <= "16"#[RunMap]== "true"//執行輿圖			//這橫行請勿更動																					
-	[Rarity]== "Normal"#[UpgradeToMagic]== "true"//使用蛻變石			//使用蛻變	不//使用蛻變																				
-	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//使用增幅石			//使用增幅	不//使用增幅																				
-//	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	//使用點金																				
+//	[Rarity]== "Normal"#[UpgradeToMagic]== "true"//使用蛻變石			//使用蛻變	不//使用蛻變																				
+//	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//使用增幅石			//使用增幅	不//使用增幅																				
+	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	//使用點金																				
 	//只打這些圖無限循環//				//中文判斷																				
 	[Type]=="Arcade Map" #	[RunMap]	=="true"	//崩壞長廊	打這張圖																				
 	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//晨曦墓地	打這張圖																				
