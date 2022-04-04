@@ -822,8 +822,8 @@
 	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//																								
 				//																								
 	//// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）			//																								
-	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	啟動中																						
-	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	啟動中																						
+//	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	啟動中																						
+//	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	啟動中																						
 				//																								
 	//// 18F 藥水（預設關閉）			//																								
 				//																								
