@@ -1025,7 +1025,7 @@
 //基底勿動//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Belt of the Deceiver / Bisco's Leash / Doryani's Invitation / Dyadian Dawn / Meginord's Girdle / Mother's Embrace / Siegebreaker / String of Servitude / Survivor's Guilt				//重革腰帶 魔血基底勿動	拾取且存倉
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_intimidated] >= "1" && [ForceSellItem] == "true" // Belt of the Deceiver				//重革腰帶	拾取且售出
 //	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [item_found_rarity_+1%_per_X_rampage_stacks] >= "1" && [ForceSellItem] == "true" // Bisco's Leash				//畢斯寇繫帶 重革腰帶	拾取且存倉
-	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && [ForceSellItem] == "true" // Dyadian Dawn				//戴亞迪安的晨曦 重革腰帶	拾取且售出
+//	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [faster_burn_from_attacks_%] >= "1" && [ForceSellItem] == "true" // Dyadian Dawn				//戴亞迪安的晨曦 重革腰帶	拾取且售出
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [flask_life_recovery_rate_+%] >= "1" && [ForceSellItem] == "true" // Meginord's Girdle				//梅吉諾德的力量泉源 重革腰帶	拾取且售出
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minions_use_parents_flasks_on_summon] >= "1" && [ForceSellItem] == "true" // Mother's Embrace				//母親的擁抱 重革腰帶	拾取且售出
 	[Type] == "Heavy Belt" && [Rarity] == "Unique" # [minion_caustic_cloud_on_death_maximum_life_per_minute_to_deal_as_chaos_damage_%] >= "1" && [ForceSellItem] == "true" // Siegebreaker				//突圍 重革腰帶	拾取且售出
@@ -1784,7 +1784,7 @@
 	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_elemental_hit_cannot_roll_fire_damage_with_40_int_+_dex_in_radius] >= "1" && [ForceSellItem] == "true" // No fire Combat Focus				//鈷藍珠寶	拾取且售出
 	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [non_curse_aura_effect_+%] >= "3" && [ForceSellItem] == "true" // Conqueror's Potency				//征服者的力量 鈷藍珠寶	拾取且售出
 	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [half_physical_bypasses_es_half_chaos_damages_es_when_X_corrupted_items_equipped] >= "1" && [ForceSellItem] == "true" // Corrupted Energy				//腐化能量 鈷藍珠寶	拾取且售出
-	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_with_50_int_in_radius_summon_X_melee_skeletons_as_mage_skeletons] >= "1" && [ForceSellItem] == "true" // Dead Reckoning				//死亡清算 鈷藍珠寶	拾取且售出
+//	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_with_50_int_in_radius_summon_X_melee_skeletons_as_mage_skeletons] >= "1" && [ForceSellItem] == "true" // Dead Reckoning				//死亡清算 鈷藍珠寶	拾取且售出
 	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true" // Eldritch Knowledge				//異能知識 鈷藍珠寶	拾取且售出
 	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [base_actor_scale_+%] >= "3" && [ForceSellItem] == "true" // Emperor's Wit				//帝王的智慧 鈷藍珠寶	拾取且售出
 	[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_discharge_cooldown_override_ms_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true" // Endless Misery				//鈷藍珠寶	拾取且售出
