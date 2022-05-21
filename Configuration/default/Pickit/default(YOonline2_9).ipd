@@ -1943,3 +1943,12 @@
 	[Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_unique_flask_damage_over_time_+%_during_flask_effect] >= "1" && [ForceSellItem] == "true" // Witchfire BrewWitchfire Brew				//垃圾藥劑或eb無法取得之藥劑	拾取且售出
 	[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [local_flask_duration_+%] >= "1" && [local_unique_overflowing_chalice_flask_cannot_gain_flask_charges_during_flask_effect] >= "1" && [ForceSellItem] == "true" //The Overflowing ChaliceThe Overflowing Chalice				//垃圾藥劑或eb無法取得之藥劑	拾取且售出
 	[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [local_flask_duration_+%] >= "1" && [local_flask_zealots_oath] >= "1" && [ForceSellItem] == "true" // The Sorrow of the DivineThe Sorrow of the Divine				//垃圾藥劑或eb無法取得之藥劑	拾取且售出
+
+
+[Type]  == "Weapon Recombinator" # 	[StashItem]			//武器重組裝置(通貨)	拾取且存倉
+[Type]  == "Transforming Power Core" # 	[StashItem]			//改造動力核心(通貨)	拾取且存倉
+[Type]  == "Power Core" # 	[StashItem]			//動力核心(通貨)	拾取且存倉
+[Type]  == "Jewellery Recombinator" # 	[StashItem]			//飾品重組裝置	拾取且存倉
+[Type]  == "Augmenting Power Core" # 	[StashItem]			//提升動力核心	拾取且存倉
+[Type]  == "Armour Recombinator" # 	[StashItem]			//護甲重組裝置	拾取且存倉
+[Type]  == "Amplifying Power Core" # 	[StashItem]			//增強動力核心	拾取且存倉
