@@ -2045,13 +2045,13 @@
 	[Type]  == "Al-Hezmin's Crest" # 	[StashItem]	 == "true" // 		狩獵者碎片	拾取且存倉																						
 	[Type]  == "Veritania's Crest" # 	[StashItem]	 == "true" // 		救贖者碎片	拾取且存倉																						
 	////23F 3.18 物品/////																											
-	[Type]  == "Weapon Recombinator" # 	[StashItem]			//武器重組裝置(通貨)	拾取且存倉																						
-	[Type]  == "Transforming Power Core" # 	[StashItem]			//改造動力核心(通貨)	拾取且存倉																						
-	[Type]  == "Power Core" # 	[StashItem]			//動力核心(通貨)	拾取且存倉																						
-	[Type]  == "Jewellery Recombinator" # 	[StashItem]			//飾品重組裝置	拾取且存倉																						
-	[Type]  == "Augmenting Power Core" # 	[StashItem]			//提升動力核心	拾取且存倉																						
-	[Type]  == "Armour Recombinator" # 	[StashItem]			//護甲重組裝置	拾取且存倉																						
-	[Type]  == "Amplifying Power Core" # 	[StashItem]			//增強動力核心	拾取且存倉																						
+	[Type]  == "Weapon Recombinator" # 	[StashItem]== "true" //			//武器重組裝置(通貨)	拾取且存倉																						
+	[Type]  == "Transforming Power Core" # 	[StashItem]== "true" //			//改造動力核心(通貨)	拾取且存倉																						
+	[Type]  == "Power Core" # 	[StashItem]== "true" //			//動力核心(通貨)	拾取且存倉																						
+	[Type]  == "Jewellery Recombinator" # 	[StashItem]== "true" //			//飾品重組裝置	拾取且存倉																						
+	[Type]  == "Augmenting Power Core" # 	[StashItem]== "true" //			//提升動力核心	拾取且存倉																						
+	[Type]  == "Armour Recombinator" # 	[StashItem]== "true" //			//護甲重組裝置	拾取且存倉																						
+	[Type]  == "Amplifying Power Core" # 	[StashItem]== "true" //			//增強動力核心	拾取且存倉																						
 																												
 																												
 																												
