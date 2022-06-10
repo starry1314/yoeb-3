@@ -821,9 +821,9 @@
 	// Other			//	//其它																							
 	[Type] == "Divine Vessel"            # 	[ForceSellItem]	 == "true" 	//	//眾神聖器	拾取且售出																						
 	[Type] =="Incandescent Invitation" #	[StashItem]	 == "true" 	//	//熾熱之邀	拾取且存倉																						
-	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	拾取且存倉																						
+//	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	拾取且存倉																						
 	[Type] == "Screaming Invitation" #	[StashItem]	 == "true" 	//	//尖哮之邀	拾取且存倉																						
-	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	拾取且存倉																						
+//	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	拾取且存倉																						
 	//// 16F 六洞裝、六連裝 （不建議更動）			//																								
 	[Sockets] == "6" && [Linked] >= "6"                          # [StashItem] =="true"     // Keep 6L6S			//																								
 	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Normal" # [ForceSellItem] =="true" // Sell Normal 6L6S			//																								
