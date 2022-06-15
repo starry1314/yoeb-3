@@ -33,12 +33,7 @@
 //	[Category] == "Boots"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999"&& 	[StashItem]	 == "true"	//	鞋子	不撿不售出																						
 //	[Category] == "Weapon"         && [Rarity]         == "Rare" # [DPS] > "999" && 	[StashItem]	 == "true"	//	武器	不撿不售出																						
 //	[Category] == "Shield"         && [Rarity]         == "Rare" # [base_maximum_life] >= "999" && [TotalResistances] >= "999" && 	[StashItem]	 == "true"	//	盾牌	不撿不售出																						
-
-//[Type] == "Writhing Invitation" # [StashItem] == "true" //任務道具  小藍 
-//[Type] == "Screaming Invitation" # [StashItem] == "true" //任務道具  藍 
-//[Type] == "Polaric Invitation" # [StashItem] == "true" //任務道具  小洪 
-//[Type] == "Incandescent Invitation" # [StashItem] == "true" //任務道具  洪
-//																								
+	//如果你未經授權，以非付費的手段取得這份拾取檔，你就會發現你會漏掉很多寶 : )  請自重// 			//																								
 	//// 2F 基礎通貨			//																								
 //	[Type] == "Alchemy Shard" # 	[StashItem]	 == "true"	//	//點金石碎片	不撿不存倉																						
 //	[Type] == "Alteration Shard" # 	[StashItem]	 == "true"	//	//改造石碎片	不撿不存倉																						
@@ -98,10 +93,10 @@
 //	[Type] == "Stacked Deck" # 	[StashItem]	 == "true"	//	//豐裕牌組	不撿不存倉																						
 	[Type] == "Unshaping Orb" # 	[StashItem]	 == "true"	//	//還原玉	拾取且存倉																						
 	[Type] == "Albino Rhoa Feather" # 	[StashItem]	 == "true"	//	//白化的羽毛	拾取且存倉																						
-	[Type] == "Offering to the Goddess" # 	[StashItem]	 == "true"	//	//女神祭品	拾取且存倉																						
-	[Type] == "Dedication to the Goddess" # 	[StashItem]	 == "true"	//	//女神奉獻	拾取且存倉																						
-	[Type] == "Tribute to the Goddess" # 	[StashItem]	 == "true"	//		拾取且存倉																						
-	[Type] == "Gift to the Goddess" # 	[StashItem]	 == "true"	//	//女神之贈	拾取且存倉																						
+//	[Type] == "Offering to the Goddess" # 	[StashItem]	 == "true"	//	//女神祭品	不撿不存倉																						
+//	[Type] == "Dedication to the Goddess" # 	[StashItem]	 == "true"	//	//女神奉獻	不撿不存倉																						
+//	[Type] == "Tribute to the Goddess" # 	[StashItem]	 == "true"	//		不撿不存倉																						
+//	[Type] == "Gift to the Goddess" # 	[StashItem]	 == "true"	//	//女神之贈	不撿不存倉																						
 	[Type] == "Awakener's Orb" # 	[StashItem]	 == "true"	//	//喚醒者之玉	拾取且存倉																						
 	[Type] == "Crusader's Exalted Orb" # 	[StashItem]	 == "true"	//	//聖戰士的崇高石	拾取且存倉																						
 	[Type] == "Hunter's Exalted Orb" # 	[StashItem]	 == "true"	//	//狩獵者的崇高石	拾取且存倉																						
@@ -259,7 +254,7 @@
 //	[Type] == "Skittering Incubator" #	[ForceSellItem]	 == "true"	//	//飛掠的培育器	不撿不售出																						
 //	[Type] == "Thaumaturge's Incubator" #	[ForceSellItem]	 == "true"	//	//幻術師的培育器	不撿不售出																						
 	[Type] == "Time-Lost Incubator" #	[ForceSellItem]	 == "true"	//	//時間遺忘的培育器	拾取且售出																						
-	//// 11F 精髓			//																								
+	//// 11F 精髓		//如果你未經授權，以非付費的手段取得這份拾取檔，你就會發現你會漏掉很多寶 : )  請自重// 	//																								
 	// Tier 1			//																								
 //	[Type] == "Whispering Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之低語精髓	不撿不存倉																						
 //	[Type] == "Whispering Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之低語精髓	不撿不存倉																						
@@ -793,37 +788,37 @@
 				//																								
 	//// 15F 輿圖			//																								
 	[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators			//	//輿圖	撿取所有地圖																						
-	[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare"        # [ForceSellItem] == "true" //				//黃圖全部賣掉																							
+	[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare"        # [StashItem] == "true" //				//黃圖全部賣掉																							
 	// Sacrifice Set			//																								
-	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	拾取且存倉																						
-	[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	拾取且存倉																						
-	[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//	//黃昏的奉獻	拾取且存倉																						
-	[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//	//午夜的奉獻	拾取且存倉																						
-	// Mortal Set			//	//凡人套組																							
-	[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	拾取且存倉																						
-	[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//	//凡人的憤怒	拾取且存倉																						
-	[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//	//凡人的無知	拾取且存倉																						
-	[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//	//凡人的希望	拾取且存倉																						
-	// Pale Court Set			//	//蒼白議會套組																							
-	[Type] == "Volkuur's Key"            # 	[StashItem]	 == "true" 	//	//福庫爾之鑰	拾取且存倉																						
-	[Type] == "Inya's Key"               # 	[StashItem]	 == "true" 	//	//茵雅之鑰	拾取且存倉																						
-	[Type] == "Yriel's Key"              # 	[StashItem]	 == "true" 	//	//伊瑞之鑰	拾取且存倉																						
-	[Type] == "Eber's Key"               # 	[StashItem]	 == "true" 	//	//希伯之鑰	拾取且存倉																						
-	// Key to the Crucible Shaper]			//	//雕塑之鑰																							
-	[Type] == "Fragment of the Hydra"    # 	[StashItem]	 == "true" 	//	//九頭蛇斷片	拾取且存倉																						
-	[Type] == "Fragment of the Chimera"  # 	[StashItem]	 == "true" 	//	//奇美拉斷片	拾取且存倉																						
-	[Type] == "Fragment of the Minotaur" # 	[StashItem]	 == "true" 	//	//牛頭斷片	拾取且存倉																						
-	[Type] == "Fragment of the Phoenix"  # 	[StashItem]	 == "true" 	//	//鳳凰斷片	拾取且存倉																						
-	// Key to Decay Elder]			//																								
-	[Type] == "Fragment of Purification" # 	[StashItem]	 == "true" 	//	//淨化斷片	拾取且存倉																						
-	[Type] == "Fragment of Constriction" # 	[StashItem]	 == "true" 	//	//干擾斷片	拾取且存倉																						
-	[Type] == "Fragment of Eradication"  # 	[StashItem]	 == "true" 	//	//根除斷片	拾取且存倉																						
-	[Type] == "Fragment of Enslavement"  # 	[StashItem]	 == "true" 	//	//奴役斷片	拾取且存倉																						
-	// Maddening Object Uber Elder]			//		拾取且																						
-	[Type] == "Fragment of Knowledge"    # 	[StashItem]	 == "true" 	//	//智慧斷片	拾取且存倉																						
-	[Type] == "Fragment of Shape"        # 	[StashItem]	 == "true" 	//	//雕塑斷片	拾取且存倉																						
-	[Type] == "Fragment of Emptiness"    # 	[StashItem]	 == "true" 	//	//空虛斷片	拾取且存倉																						
-	[Type] == "Fragment of Terror"       # 	[StashItem]	 == "true" 	//	//恐懼斷片	拾取且存倉																						
+//	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	不撿不存倉																						
+//	[Type] == "Sacrifice at Noon"        # 	[StashItem]	 == "true" 	//	//正午的奉獻	不撿不存倉																						
+//	[Type] == "Sacrifice at Dusk"        # 	[StashItem]	 == "true" 	//	//黃昏的奉獻	不撿不存倉																						
+//	[Type] == "Sacrifice at Midnight"    # 	[StashItem]	 == "true" 	//	//午夜的奉獻	不撿不存倉																						
+//	// Mortal Set			//	//凡人套組																							
+//	[Type] == "Mortal Grief"             # 	[StashItem]	 == "true" 	//	//凡人的哀傷	不撿不存倉																						
+//	[Type] == "Mortal Rage"              # 	[StashItem]	 == "true" 	//	//凡人的憤怒	不撿不存倉																						
+//	[Type] == "Mortal Ignorance"         # 	[StashItem]	 == "true" 	//	//凡人的無知	不撿不存倉																						
+//	[Type] == "Mortal Hope"              # 	[StashItem]	 == "true" 	//	//凡人的希望	不撿不存倉																						
+//	// Pale Court Set			//	//蒼白議會套組																							
+//	[Type] == "Volkuur's Key"            # 	[StashItem]	 == "true" 	//	//福庫爾之鑰	不撿不存倉																						
+//	[Type] == "Inya's Key"               # 	[StashItem]	 == "true" 	//	//茵雅之鑰	不撿不存倉																						
+//	[Type] == "Yriel's Key"              # 	[StashItem]	 == "true" 	//	//伊瑞之鑰	不撿不存倉																						
+//	[Type] == "Eber's Key"               # 	[StashItem]	 == "true" 	//	//希伯之鑰	不撿不存倉																						
+//	// Key to the Crucible Shaper]			//	//雕塑之鑰																							
+//	[Type] == "Fragment of the Hydra"    # 	[StashItem]	 == "true" 	//	//九頭蛇斷片	不撿不存倉																						
+//	[Type] == "Fragment of the Chimera"  # 	[StashItem]	 == "true" 	//	//奇美拉斷片	不撿不存倉																						
+//	[Type] == "Fragment of the Minotaur" # 	[StashItem]	 == "true" 	//	//牛頭斷片	不撿不存倉																						
+//	[Type] == "Fragment of the Phoenix"  # 	[StashItem]	 == "true" 	//	//鳳凰斷片	不撿不存倉																						
+//	// Key to Decay Elder]			//																								
+//	[Type] == "Fragment of Purification" # 	[StashItem]	 == "true" 	//	//淨化斷片	不撿不存倉																						
+//	[Type] == "Fragment of Constriction" # 	[StashItem]	 == "true" 	//	//干擾斷片	不撿不存倉																						
+//	[Type] == "Fragment of Eradication"  # 	[StashItem]	 == "true" 	//	//根除斷片	不撿不存倉																						
+//	[Type] == "Fragment of Enslavement"  # 	[StashItem]	 == "true" 	//	//奴役斷片	不撿不存倉																						
+//	// Maddening Object Uber Elder]			//		不撿不																						
+//	[Type] == "Fragment of Knowledge"    # 	[StashItem]	 == "true" 	//	//智慧斷片	不撿不存倉																						
+//	[Type] == "Fragment of Shape"        # 	[StashItem]	 == "true" 	//	//雕塑斷片	不撿不存倉																						
+//	[Type] == "Fragment of Emptiness"    # 	[StashItem]	 == "true" 	//	//空虛斷片	不撿不存倉																						
+//	[Type] == "Fragment of Terror"       # 	[StashItem]	 == "true" 	//	//恐懼斷片	不撿不存倉																						
 	// Other			//	//其它																							
 //	[Type] == "Divine Vessel"            # 	[ForceSellItem]	 == "true" 	//	//眾神聖器	不撿不售出																						
 	[Type] =="Incandescent Invitation" #	[StashItem]	 == "true" 	//	//熾熱之邀	拾取且存倉																						
@@ -898,100 +893,100 @@
 //	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售出																						
 				//																								
 	//// 19F 聖甲蟲			//																								
-	[Type] == "Rusted Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕伏擊	拾取且存倉																						
-	[Type] == "Polished Ambush Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑伏擊	拾取且存倉																						
-	[Type] == "Gilded Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金伏擊	拾取且存倉																						
-	[Type] == "Winged Ambush Scarab"        # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕獸獵	拾取且存倉																						
-	[Type] == "Polished Bestiary Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑獸獵	拾取且存倉																						
-	[Type] == "Gilded Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金獸獵	拾取且存倉																						
-	[Type] == "Winged Bestiary Scarab"      # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕裂痕	拾取且存倉																						
-	[Type] == "Polished Breach Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑裂痕	拾取且存倉																						
-	[Type] == "Gilded Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金裂痕	拾取且存倉																						
-	[Type] == "Winged Breach Scarab"        # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鏽蝕製圖	拾取且存倉																						
-	[Type] == "Polished Cartography Scarab" # [StashItem] == "true"			//	//聖甲蟲：圓滑製圖	拾取且存倉																						
-	[Type] == "Gilded Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金製圖	拾取且存倉																						
-	[Type] == "Winged Cartography Scarab"   # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鏽蝕命運	拾取且存倉																						
-	[Type] == "Polished Divination Scarab"  # [StashItem] == "true"			//	//聖甲蟲：圓滑命運	拾取且存倉																						
-	[Type] == "Gilded Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金命運	拾取且存倉																						
-	[Type] == "Winged Divination Scarab"    # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鏽蝕尊師	拾取且存倉																						
-	[Type] == "Polished Elder Scarab"       # [StashItem] == "true"			//	//聖甲蟲：圓滑尊師	拾取且存倉																						
-	[Type] == "Gilded Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鍍金尊師	拾取且存倉																						
-	[Type] == "Winged Elder Scarab"         # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕神諭	拾取且存倉																						
-	[Type] == "Polished Harbinger Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑神諭	拾取且存倉																						
-	[Type] == "Gilded Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金神諭	拾取且存倉																						
-	[Type] == "Winged Harbinger Scarab"     # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕戰亂	拾取且存倉																						
-	[Type] == "Polished Legion Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑戰亂	拾取且存倉																						
-	[Type] == "Gilded Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金戰亂	拾取且存倉																						
-	[Type] == "Winged Legion Scarab"        # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕鍊魔	拾取且存倉																						
-	[Type] == "Polished Metamorph Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑鍊魔	拾取且存倉																						
-	[Type] == "Gilded Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金鍊魔	拾取且存倉																						
-	[Type] == "Winged Metamorph Scarab"     # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕普蘭德斯	拾取且存倉																						
-	[Type] == "Polished Perandus Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑普蘭德斯	拾取且存倉																						
-	[Type] == "Gilded Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金普蘭德斯	拾取且存倉																						
-	[Type] == "Winged Perandus Scarab"      # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕聖物	拾取且存倉																						
-	[Type] == "Polished Reliquary Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑聖物	拾取且存倉																						
-	[Type] == "Gilded Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金聖物	拾取且存倉																						
-	[Type] == "Winged Reliquary Scarab"     # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕塑者	拾取且存倉																						
-	[Type] == "Polished Shaper Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑塑者	拾取且存倉																						
-	[Type] == "Gilded Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金塑者	拾取且存倉																						
-	[Type] == "Winged Shaper Scarab"        # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕硫酸	拾取且存倉																						
-	[Type] == "Polished Sulphite Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑硫酸	拾取且存倉																						
-	[Type] == "Gilded Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金硫酸	拾取且存倉																						
-	[Type] == "Winged Sulphite Scarab"      # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鏽蝕苦痛	拾取且存倉																						
-	[Type] == "Polished Torment Scarab"     # [StashItem] == "true"			//	//聖甲蟲：圓滑苦痛	拾取且存倉																						
-	[Type] == "Gilded Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鍍金苦痛	拾取且存倉																						
-	[Type] == "Winged Torment Scarab"       # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金深淵	拾取且存倉																						
-	[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金凋落	拾取且存倉																						
-	[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Polished Blight Scarab" # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Winged Blight Scarab"   # [StashItem] == "true"			//		拾取且存倉																						
-	[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"				//探險鏽蝕	拾取且存倉																						
-	[Type] == "Polished Expedition Scarab" # [StashItem] == "true"			//	//探險圓滑	拾取且存倉																						
-	[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"			//	//探險鍍金	拾取且存倉																						
-	[Type] == "Winged Expedition Scarab" # [StashItem] == "true"			//	//探險展翅	拾取且存倉																						
-	//// 20F 化石			//																								
-	[Type] == "Aberrant Fossil"     # [StashItem] == "true"			//	//特異化石	拾取且存倉																						
-	[Type] == "Aetheric Fossil"     # [StashItem] == "true"			//	//神幻化石	拾取且存倉																						
-	[Type] == "Bloodstained Fossil" # [StashItem] == "true"			//	//血漬化石	拾取且存倉																						
-	[Type] == "Bound Fossil"        # [StashItem] == "true"			//	//畛域化石	拾取且存倉																						
-	[Type] == "Corroded Fossil"     # [StashItem] == "true"			//	//斑駁化石	拾取且存倉																						
-	[Type] == "Dense Fossil"        # [StashItem] == "true"			//	//稠密化石	拾取且存倉																						
-	[Type] == "Enchanted Fossil"    # [StashItem] == "true"			//	//附魔化石	拾取且存倉																						
-	[Type] == "Encrusted Fossil"    # [StashItem] == "true"			//	//鑲飾化石	拾取且存倉																						
-	[Type] == "Faceted Fossil"      # [StashItem] == "true"			//	//雕琢化石	拾取且存倉																						
-	[Type] == "Fractured Fossil"    # [StashItem] == "true"			//	//破裂化石	拾取且存倉																						
-	[Type] == "Frigid Fossil"       # [StashItem] == "true"			//	//寒風化石	拾取且存倉																						
-	[Type] == "Gilded Fossil"       # [StashItem] == "true"			//	//鑲金化石	拾取且存倉																						
-	[Type] == "Glyphic Fossil"      # [StashItem] == "true"			//	//雕紋化石	拾取且存倉																						
-	[Type] == "Hollow Fossil"       # [StashItem] == "true"			//	//鏤空化石	拾取且存倉																						
-	[Type] == "Jagged Fossil"       # [StashItem] == "true"			//	//鋸齒化石	拾取且存倉																						
-	[Type] == "Lucent Fossil"       # [StashItem] == "true"			//	//明透化石	拾取且存倉																						
-	[Type] == "Metallic Fossil"     # [StashItem] == "true"			//	//金鋼化石	拾取且存倉																						
-	[Type] == "Perfect Fossil"      # [StashItem] == "true"			//	//無瑕化石	拾取且存倉																						
-	[Type] == "Prismatic Fossil"    # [StashItem] == "true"			//	//三相化石	拾取且存倉																						
-	[Type] == "Pristine Fossil"     # [StashItem] == "true"			//	//原始化石	拾取且存倉																						
-	[Type] == "Sanctified Fossil"   # [StashItem] == "true"			//	//神聖化石	拾取且存倉																						
-	[Type] == "Scorched Fossil"     # [StashItem] == "true"			//	//暴炎化石	拾取且存倉																						
-	[Type] == "Serrated Fossil"     # [StashItem] == "true"			//	//利齒化石	拾取且存倉																						
-	[Type] == "Shuddering Fossil"   # [StashItem] == "true"			//	//顫慄化石	拾取且存倉																						
-	[Type] == "Tangled Fossil"      # [StashItem] == "true"			//	//紊亂化石	拾取且存倉																						
+//	[Type] == "Rusted Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕伏擊	不拾取																						
+//	[Type] == "Polished Ambush Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑伏擊	不拾取																						
+//	[Type] == "Gilded Ambush Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金伏擊	#REF!																						
+//	[Type] == "Winged Ambush Scarab"        # [StashItem] == "true"			//		#REF!																						
+//	[Type] == "Rusted Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕獸獵	不拾取																						
+//	[Type] == "Polished Bestiary Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑獸獵	不拾取																						
+//	[Type] == "Gilded Bestiary Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金獸獵	不拾取																						
+//	[Type] == "Winged Bestiary Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕裂痕	不拾取																						
+//	[Type] == "Polished Breach Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑裂痕	不拾取																						
+//	[Type] == "Gilded Breach Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金裂痕	不拾取																						
+//	[Type] == "Winged Breach Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鏽蝕製圖	不拾取																						
+//	[Type] == "Polished Cartography Scarab" # [StashItem] == "true"			//	//聖甲蟲：圓滑製圖	不拾取																						
+//	[Type] == "Gilded Cartography Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金製圖	不拾取																						
+//	[Type] == "Winged Cartography Scarab"   # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鏽蝕命運	不拾取																						
+//	[Type] == "Polished Divination Scarab"  # [StashItem] == "true"			//	//聖甲蟲：圓滑命運	不拾取																						
+//	[Type] == "Gilded Divination Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金命運	不拾取																						
+//	[Type] == "Winged Divination Scarab"    # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鏽蝕尊師	不拾取																						
+//	[Type] == "Polished Elder Scarab"       # [StashItem] == "true"			//	//聖甲蟲：圓滑尊師	不拾取																						
+//	[Type] == "Gilded Elder Scarab"         # [StashItem] == "true"			//	//聖甲蟲：鍍金尊師	不拾取																						
+//	[Type] == "Winged Elder Scarab"         # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕神諭	不拾取																						
+//	[Type] == "Polished Harbinger Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑神諭	不拾取																						
+//	[Type] == "Gilded Harbinger Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金神諭	不拾取																						
+//	[Type] == "Winged Harbinger Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕戰亂	不拾取																						
+//	[Type] == "Polished Legion Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑戰亂	不拾取																						
+//	[Type] == "Gilded Legion Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金戰亂	不拾取																						
+//	[Type] == "Winged Legion Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕鍊魔	不拾取																						
+//	[Type] == "Polished Metamorph Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑鍊魔	不拾取																						
+//	[Type] == "Gilded Metamorph Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金鍊魔	不拾取																						
+//	[Type] == "Winged Metamorph Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕普蘭德斯	不拾取																						
+//	[Type] == "Polished Perandus Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑普蘭德斯	不拾取																						
+//	[Type] == "Gilded Perandus Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金普蘭德斯	不拾取																						
+//	[Type] == "Winged Perandus Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鏽蝕聖物	不拾取																						
+//	[Type] == "Polished Reliquary Scarab"   # [StashItem] == "true"			//	//聖甲蟲：圓滑聖物	不拾取																						
+//	[Type] == "Gilded Reliquary Scarab"     # [StashItem] == "true"			//	//聖甲蟲：鍍金聖物	不拾取																						
+//	[Type] == "Winged Reliquary Scarab"     # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鏽蝕塑者	不拾取																						
+//	[Type] == "Polished Shaper Scarab"      # [StashItem] == "true"			//	//聖甲蟲：圓滑塑者	不拾取																						
+//	[Type] == "Gilded Shaper Scarab"        # [StashItem] == "true"			//	//聖甲蟲：鍍金塑者	不拾取																						
+//	[Type] == "Winged Shaper Scarab"        # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鏽蝕硫酸	不拾取																						
+//	[Type] == "Polished Sulphite Scarab"    # [StashItem] == "true"			//	//聖甲蟲：圓滑硫酸	不拾取																						
+//	[Type] == "Gilded Sulphite Scarab"      # [StashItem] == "true"			//	//聖甲蟲：鍍金硫酸	不拾取																						
+//	[Type] == "Winged Sulphite Scarab"      # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鏽蝕苦痛	不拾取																						
+//	[Type] == "Polished Torment Scarab"     # [StashItem] == "true"			//	//聖甲蟲：圓滑苦痛	不拾取																						
+//	[Type] == "Gilded Torment Scarab"       # [StashItem] == "true"			//	//聖甲蟲：鍍金苦痛	不拾取																						
+//	[Type] == "Winged Torment Scarab"       # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Gilded Abyss Scarab"    # [StashItem] == "true"			//	//聖甲蟲：鍍金深淵	不拾取																						
+//	[Type] == "Gilded Blight Scarab"   # [StashItem] == "true"			//	//聖甲蟲：鍍金凋落	不拾取																						
+//	[Type] == "Polished Abyss Scarab"  # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Polished Blight Scarab" # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Abyss Scarab"    # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Rusted Blight Scarab"   # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Winged Abyss Scarab"    # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Winged Blight Scarab"   # [StashItem] == "true"			//		不拾取																						
+//	[Type] == "Gilded Expedition Scarab" # [StashItem] == "true"				//探險鏽蝕	不拾取																						
+//	[Type] == "Polished Expedition Scarab" # [StashItem] == "true"			//	//探險圓滑	不拾取																						
+//	[Type] == "Rusted Expedition Scarab" # [StashItem] == "true"			//	//探險鍍金	不拾取																						
+//	[Type] == "Winged Expedition Scarab" # [StashItem] == "true"			//	//探險展翅	不拾取																						
+//	//// 20F 化石			//																								
+//	[Type] == "Aberrant Fossil"     # [StashItem] == "true"			//	//特異化石	不拾取																						
+//	[Type] == "Aetheric Fossil"     # [StashItem] == "true"			//	//神幻化石	不拾取																						
+//	[Type] == "Bloodstained Fossil" # [StashItem] == "true"			//	//血漬化石	不拾取																						
+//	[Type] == "Bound Fossil"        # [StashItem] == "true"			//	//畛域化石	不拾取																						
+//	[Type] == "Corroded Fossil"     # [StashItem] == "true"			//	//斑駁化石	不拾取																						
+//	[Type] == "Dense Fossil"        # [StashItem] == "true"			//	//稠密化石	不拾取																						
+//	[Type] == "Enchanted Fossil"    # [StashItem] == "true"			//	//附魔化石	不拾取																						
+//	[Type] == "Encrusted Fossil"    # [StashItem] == "true"			//	//鑲飾化石	不拾取																						
+//	[Type] == "Faceted Fossil"      # [StashItem] == "true"			//	//雕琢化石	不拾取																						
+//	[Type] == "Fractured Fossil"    # [StashItem] == "true"			//	//破裂化石	不拾取																						
+//	[Type] == "Frigid Fossil"       # [StashItem] == "true"			//	//寒風化石	不拾取																						
+//	[Type] == "Gilded Fossil"       # [StashItem] == "true"			//	//鑲金化石	不拾取																						
+//	[Type] == "Glyphic Fossil"      # [StashItem] == "true"			//	//雕紋化石	不拾取																						
+//	[Type] == "Hollow Fossil"       # [StashItem] == "true"			//	//鏤空化石	不拾取																						
+//	[Type] == "Jagged Fossil"       # [StashItem] == "true"			//	//鋸齒化石	不拾取																						
+//	[Type] == "Lucent Fossil"       # [StashItem] == "true"			//	//明透化石	不拾取																						
+//	[Type] == "Metallic Fossil"     # [StashItem] == "true"			//	//金鋼化石	不拾取																						
+//	[Type] == "Perfect Fossil"      # [StashItem] == "true"			//	//無瑕化石	不拾取																						
+//	[Type] == "Prismatic Fossil"    # [StashItem] == "true"			//	//三相化石	不拾取																						
+//	[Type] == "Pristine Fossil"     # [StashItem] == "true"			//	//原始化石	不拾取																						
+//	[Type] == "Sanctified Fossil"   # [StashItem] == "true"			//	//神聖化石	不拾取																						
+//	[Type] == "Scorched Fossil"     # [StashItem] == "true"			//	//暴炎化石	不拾取																						
+//	[Type] == "Serrated Fossil"     # [StashItem] == "true"			//	//利齒化石	不拾取																						
+//	[Type] == "Shuddering Fossil"   # [StashItem] == "true"			//	//顫慄化石	不拾取																						
+//	[Type] == "Tangled Fossil"      # [StashItem] == "true"			//	//紊亂化石	不拾取																						
 				//																								
 	//// 21F 傳奇	//傳奇這欄甭編輯	//傳奇請編輯最前面A欄就好	//																								
 //	傳奇 //			//																								
@@ -2029,11 +2024,11 @@
 	[Type]  == "Surveyors Compass" #  	[StashItem]	 == "true" // 		測量員的羅盤	拾取且存倉																						
 	[Type]  == "Charged Compass" # 	[StashItem]	 == "true" // 		充能的羅盤	拾取且存倉																						
 	[Type]  == "Exceptional Eldritch Ember" # 	[StashItem]	 == "true" // 		宏偉異能灰燼	拾取且存倉																						
-	[Type]  == "Grand Eldritch Ember" # 	[StashItem]	 == "true" // 		卓越	拾取且存倉																						
+//	[Type]  == "Grand Eldritch Ember" # 	[StashItem]	 == "true" // 		卓越	不撿不存倉																						
 //	[Type]  == "Greater Eldritch Ember" # 	[StashItem]	 == "true" // 		高階	不撿不存倉																						
 //	[Type]  == "Lesser Eldritch Ember" # 	[StashItem]	 == "true" // 		低階	不撿不存倉																						
 	[Type]  == "Exceptional Eldritch Ichor" # 	[StashItem]	 == "true" // 		宏偉異能靈液	拾取且存倉																						
-	[Type]  == "Grand Eldritch Ichor" # 	[StashItem]	 == "true" // 		卓越	拾取且存倉																						
+//	[Type]  == "Grand Eldritch Ichor" # 	[StashItem]	 == "true" // 		卓越	不撿不存倉																						
 //	[Type]  == "Greater Eldritch Ichor" # 	[StashItem]	 == "true" // 		高階	不撿不存倉																						
 //	[Type]  == "Lesser Eldritch Ichor" # 	[StashItem]	 == "true" // 		低階	不撿不存倉																						
 	[Type]  == "Orb of Conflict" # 	[StashItem]	 == "true" // 		衝突寶珠	拾取且存倉																						
@@ -2089,3 +2084,9 @@
 //	[Type] == "Primeval Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的萬劫守望	不撿不售出																						
 //	[Type] == "Primeval Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的潛行守望	不撿不售出																						
 //	[Type] == "Rusted Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//鏽蝕的潛行守望	不撿不售出																						
+	//任務道具																											
+//	[Type] == "Writhing Invitation" # [StashItem] == "true" //任務道具  小藍																											
+//	[Type] == "Screaming Invitation" # [StashItem] == "true" //任務道具  藍																											
+//	[Type] == "Polaric Invitation" # [StashItem] == "true" //任務道具  小洪																											
+//	[Type] == "Incandescent Invitation" # [StashItem] == "true" //任務道具  洪																											
+	//如果你未經授權，以非付費的手段取得這份拾取檔，你就會發現你會漏掉很多寶 : )  請自重// 																											
