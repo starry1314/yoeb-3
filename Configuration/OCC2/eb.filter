@@ -551,7 +551,7 @@ Show # 通貨 - 初始 - 知識卷軸
     SetTextColor 248 172 184 255
     SetBackgroundColor 0 0 0 255
     SetBorderColor 248 172 184 255
-    SetFontSize 40
+    SetFontSize 20
     MinimapIcon 2 Red Diamond
 
 Show # 通貨 - 初始 - 傳送卷軸
