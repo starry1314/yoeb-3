@@ -822,9 +822,9 @@
 	// Other			//	//其它																							
 //	[Type] == "Divine Vessel"            # 	[ForceSellItem]	 == "true" 	//	//眾神聖器	不撿不售出																						
 	[Type] =="Incandescent Invitation" #	[StashItem]	 == "true" 	//	//熾熱之邀	拾取且存倉																						
-//	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	不撿不存倉																						
-	[Type] == "Screaming Invitation" #	[StashItem]	 == "true" 	//	//尖哮之邀	拾取且存倉																						
-//	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	不撿不存倉																						
+	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	不撿不存倉																						
+	[Type] =="Screaming Invitation" #	[StashItem]	 == "true" 	//	//尖哮之邀	拾取且存倉																						
+	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	不撿不存倉																						
 //	[Type] =="Maven's Invitation: The Elderslayers" #	[ForceSellItem]	 == "true" 		//殺手	不撿不售出																						
 //	[Type] =="Maven's Invitation: The Forgotten" #	[ForceSellItem]	 == "true" 		//釋界之邀：遺忘	不撿不售出																						
 //	[Type] =="Maven's Invitation: The Formed" #	[ForceSellItem]	 == "true" 		//釋界之邀：塑型	不撿不售出																						
