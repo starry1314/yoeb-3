@@ -551,7 +551,7 @@ Show # 通貨 - 初始 - 知識卷軸
     SetTextColor 248 172 184 255
     SetBackgroundColor 0 0 0 255
     SetBorderColor 248 172 184 255
-    SetFontSize 40
+    SetFontSize 1
     MinimapIcon 2 Red Diamond
 
 Show # 通貨 - 初始 - 傳送卷軸
@@ -2671,7 +2671,7 @@ Show # 輿圖物品 - 任務道具
     SetTextColor 0 255 0
     SetBackgroundColor 0 0 0
     SetBorderColor 0 255 0
-    SetFontSize 45
+    SetFontSize 1
     PlayAlertSound 16 250
     MinimapIcon 0 Green Triangle
     PlayEffect Green
