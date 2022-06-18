@@ -1007,7 +1007,9 @@
 	[Type] == "Crystal Wand" && [Rarity] == "Unique" # [local_display_nearby_enemies_are_blinded] >= "1" && [ForceSellItem] == "true" // Eclipse Solaris - [Blinding Light] - Corona Solaris				//水晶法杖	拾取且售出																						
 	[Type] == "Death Bow" && [Rarity] == "Unique" # [base_number_of_additional_arrows] >= "1" && [ForceSellItem] == "true" // Death's Harp - [The Bowstring's Music] - Death's Opus				//死亡之弓	拾取且售出																						
 	[Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch's Prism				//皇家獵弓	拾取且售出																						
-	[Type] == "Woodsplitter" && [Rarity] == "Unique" # [local_display_trigger_level_x_gore_shockwave_on_melee_hit_with_atleast_150_strength] >= "1" && [ForceSellItem] == "true" // Limbsplit - [Severed Limbs] - The Cauteriser				//柴斧	拾取且售出																						
+[Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_+%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch     //滅世 皇家獵弓 及 滅世之獄 皇家獵弓 拾取且售出
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出
+        [Type] == "Woodsplitter" && [Rarity] == "Unique" # [local_display_trigger_level_x_gore_shockwave_on_melee_hit_with_atleast_150_strength] >= "1" && [ForceSellItem] == "true" // Limbsplit - [Severed Limbs] - The Cauteriser				//柴斧	拾取且售出																						
 	[Type]== "Paua Amulet" && [Rarity] == "Unique" # [maximum_mana_+%] >= "1" && [ForceSellItem] == "true" // Atziri's Foible				//阿茲里聖徽 海靈護身符	拾取且售出																						
 //預設//	[Type]== "Studded Belt" && [Rarity] == "Unique" # [gain_X_life_on_stun] >= "1" && [ForceSellItem] == "true" // Ryslatha's Coil				//瑞斯拉薩之纏 扣釘腰帶	拾取且存倉																						
 	[Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] >= "1" && [ForceSellItem] == "true" // Extractor Mentis				//心靈抽取 瑪瑙護身符	拾取且售出																						
