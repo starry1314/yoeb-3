@@ -1,1 +1,1 @@
-start "" "C:\Users\Administrator\Desktop\yoeb-main\Configuration\sanda\W=W345T=C+QWERT.exe"
+start "" "C:\Users\Administrator\Desktop\yoeb-main\Configuration\BRA\W=W345T=C+QWERT.exe"
