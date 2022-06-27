@@ -2090,4 +2090,11 @@
 //	[Type] == "Primeval Apex Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的巔峰守望	不撿不售出																						
 //	[Type] == "Primeval Pandemonium Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的萬劫守望	不撿不售出																						
 //	[Type] == "Primeval Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//原始的潛行守望	不撿不售出																						
-//	[Type] == "Rusted Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//鏽蝕的潛行守望	不撿不售出																						
+//	[Type] == "Rusted Stalker Sentinel" && [Rarity] == "Rare"#	[ForceSellItem]	 == "true" // 		//鏽蝕的潛行守望	不撿不售出		
+[Type] == "Leather Hood" && [Rarity] == "Unique" # [fire_and_cold_damage_resistance_+%] >= "1" && [ForceSellItem] == "true" // Frostferno    //霜獄 革兜 拾取且售出   
+[Type] == "Royal Bow" && [Rarity] == "Unique" # [weapon_physical_damage_+%_to_add_as_random_element] >= "1" && [ForceSellItem] == "true" // Doomfletch - [Ancient Doom] - Doomfletch     //滅世 皇家獵弓 及 滅世之獄 皇家獵弓 拾取且售出
+[Type] == "Wyrmscale Doublet" && [Rarity] == "Unique" # [physical_damage_+%] >= "1" && [ForceSellItem] == "true" // Gruthkul's Pelt // 葛魯斯寇真皮 龍鱗戰甲 拾取且售出
+[Type] == "Black Maw Talisman" && [Rarity] == "Unique" # [local_has_X_sockets] >= "1" && [ForceSellItem] == "true" // Night's Hold // 夜守 黑牙魔符 拾取且售出
+[Type] == "Simple Robe" && [Rarity] == "Unique" # [local_unique_tabula_rasa_no_requirement_or_energy_shield] >= "1" && [ForceSellItem] == "true" // Tabula Rasa // 白袍 拾取且售出
+[Type] == "Stibnite Flask" && [Rarity] == "Unique" # [local_charges_used_+%] >= "-10" && [ForceSellItem] == "true" // Witchfire Brew // 巫火秘釀 拾取賣出
+[Type] == "Quicksilver Flask" && [Rarity] == "Unique" # [local_recharge_on_crit_+%] >= "1" && [ForceSellItem] == "true" // Rotgut傷胃酒拾取賣出
