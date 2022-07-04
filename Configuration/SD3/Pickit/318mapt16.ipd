@@ -233,11 +233,11 @@
 	[Type] == "Unstable Catalyst"     # 	[StashItem]	 == "true"	//		拾取且存倉																						
 	[Type] == "Accelerating Catalyst" # 	[StashItem]	 == "true"		//加速催化劑	拾取且存倉																						
 	//// 10F 軍團裂片&培育器(被視為通貨故無法售出）			//																								
-	[Type] == "Timeless Eternal Empire Splinter"         # 	[StashItem]	 == "true"	//	//永恆不朽帝國裂片	拾取且存倉																						
-	[Type] == "Timeless Karui Splinter"                         # 	[StashItem]	 == "true"	//	//永恆卡魯裂片	拾取且存倉																						
+	//[Type] == "Timeless Eternal Empire Splinter"         # 	[StashItem]	 == "true"	//	//永恆不朽帝國裂片	拾取且存倉																						
+	//[Type] == "Timeless Karui Splinter"                         # 	[StashItem]	 == "true"	//	//永恆卡魯裂片	拾取且存倉																						
 	[Type] == "Timeless Maraketh Splinter"                         # 	[StashItem]	 == "true"	//	//永恆馬拉克斯裂片	拾取且存倉																						
 	[Type] == "Timeless Templar Splinter"                         # 	[StashItem]	 == "true"	//	//永恆聖宗裂片	拾取且存倉																						
-	[Type] == "Timeless Vaal Splinter"                                 # 	[StashItem]	 == "true"	//	//永恆瓦爾裂片	拾取且存倉																						
+	//[Type] == "Timeless Vaal Splinter"                                 # 	[StashItem]	 == "true"	//	//永恆瓦爾裂片	拾取且存倉																						
 	[Type] == "Timeless Eternal Emblem"         # 	[StashItem]	 == "true"	//	//永恆不朽帝國徽印	拾取且存倉																						
 	[Type] == "Timeless Karui Emblem"                 # 	[StashItem]	 == "true"	//	//永恆卡魯徽印	拾取且存倉																						
 	[Type] == "Timeless Maraketh Emblem"         # 	[StashItem]	 == "true"	//	//永恆馬拉克斯徽印	拾取且存倉																						
