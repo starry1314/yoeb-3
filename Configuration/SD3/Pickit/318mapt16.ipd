@@ -130,15 +130,15 @@
 	[Type] == "Simulacrum" # 	[StashItem]	 == "true"	//	//幻像異界	拾取且存倉																						
 	//// 4F 裂痕物品			//																								
 	[Type] == "Splinter of Chayula"         # 	[StashItem]	 == "true"		//夏烏拉裂片	拾取且存倉																						
-	[Type] == "Splinter of Esh"                 # 	[StashItem]	 == "true"		//艾許裂片	拾取且存倉																						
-	[Type] == "Splinter of Tul"                 # 	[StashItem]	 == "true"		//托沃裂片	拾取且存倉																						
-	[Type] == "Splinter of Uul-Netol"         # 	[StashItem]	 == "true"		//烏爾尼多裂片	拾取且存倉																						
-	[Type] == "Splinter of Xoph"                 # 	[StashItem]	 == "true"		//索伏裂片	拾取且存倉																						
-	[Type] == "Blessing of Chayula"         # 	[StashItem]	 == "true"		//夏烏拉的祝福	拾取且存倉																						
-	[Type] == "Blessing of Esh"                 # 	[StashItem]	 == "true"		//艾許的祝福	拾取且存倉																						
-	[Type] == "Blessing of Tul"                 # 	[StashItem]	 == "true"		//托沃的祝福	拾取且存倉																						
-	[Type] == "Blessing of Uul-Netol"         # 	[StashItem]	 == "true"		//烏爾尼多的祝福	拾取且存倉																						
-	[Type] == "Blessing of Xoph"                 # 	[StashItem]	 == "true"		//索伏的祝福	拾取且存倉																						
+//	[Type] == "Splinter of Esh"                 # 	[StashItem]	 == "true"		//艾許裂片	拾取且存倉																						
+//	[Type] == "Splinter of Tul"                 # 	[StashItem]	 == "true"		//托沃裂片	拾取且存倉																						
+//	[Type] == "Splinter of Uul-Netol"         # 	[StashItem]	 == "true"		//烏爾尼多裂片	拾取且存倉																						
+//	[Type] == "Splinter of Xoph"                 # 	[StashItem]	 == "true"		//索伏裂片	拾取且存倉																						
+//	[Type] == "Blessing of Chayula"         # 	[StashItem]	 == "true"		//夏烏拉的祝福	拾取且存倉																						
+//	[Type] == "Blessing of Esh"                 # 	[StashItem]	 == "true"		//艾許的祝福	拾取且存倉																						
+//	[Type] == "Blessing of Tul"                 # 	[StashItem]	 == "true"		//托沃的祝福	拾取且存倉																						
+//	[Type] == "Blessing of Uul-Netol"         # 	[StashItem]	 == "true"		//烏爾尼多的祝福	拾取且存倉																						
+//	[Type] == "Blessing of Xoph"                 # 	[StashItem]	 == "true"		//索伏的祝福	拾取且存倉																						
 	[Type] == "Xoph's Breachstone"                         # 	[StashItem]	 == "true"		//索伏裂痕石	拾取且存倉																						
 	[Type] == "Xoph's Charged Breachstone"         # 	[StashItem]	 == "true"		//索伏充能裂痕石	拾取且存倉																						
 	[Type] == "Xoph's Enriched Breachstone" # 	[StashItem]	 == "true"		//索伏富裕裂痕石	拾取且存倉																						
