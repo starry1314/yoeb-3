@@ -822,3 +822,17 @@
 	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal"  # [SellUnid] == "true"     // Sell 6S Whites			//																								
 	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic"          # [SellUnid] == "true"     // Sell 6S Magic			//																								
 	 [Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare"          # [SellUnid] == "true"     // Sell 6S Rare			//																								
+
+[Type]=="Niko's Memory" #	[StashItem]	 == "true" // 
+[Type]=="Alva's Memory" #	[StashItem]	 == "true" // 
+[Type]=="Kirac's Memory" #	[StashItem]	 == "true" // 
+[Type]=="Einhar's Memory" #	[StashItem]	 == "true" // 
+[Type]=="Engraved Ultimatum" #	[StashItem]	 == "true" // 
+[Type]=="Mirrored Tablet" #	[StashItem]	 == "true" // 
+[Type]=="Forgotten Reliquary Key" #	[StashItem]	 == "true" // 
+[Type]=="Visceral Reliquary Key" #	[StashItem]	 == "true" // 
+[Type]=="Shiny Reliquary Key" #	[StashItem]	 == "true" // 
+[Type]=="Archive Reliquary Key" #	[StashItem]	 == "true" // 
+[Type]=="Oubliette Reliquary Key" #	[StashItem]	 == "true" // 
+[Type]=="Cosmic Reliquary Key" #	[StashItem]	 == "true" // 
+[Type]=="Decaying Reliquary Key" #	[StashItem]	 == "true" // 
