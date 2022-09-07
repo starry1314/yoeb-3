@@ -23,7 +23,10 @@
 [Type]=="Tainted Blacksmith's Whetstone" # [StashItem]  == "true"
 [Type]=="Tainted Divine Teardrop" # [StashItem]  == "true"
  
- 
+ [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手
+[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘
+[Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型
+[Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲
  
  
  //編輯時間：2022/7/5 ex比水餃便宜的季末
